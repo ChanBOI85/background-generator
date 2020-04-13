@@ -7,6 +7,8 @@ var color2 = document.querySelector(".color2");
 function setLinearBackground() {
 	body.style.background = "linear-gradient(to right, "+ color1.value +", "+ color2.value +")";
 	css.innerHTML = body.style.background + ";";
+
+	console.log("Heeey! I just created my first github account!");
 }
 
 
